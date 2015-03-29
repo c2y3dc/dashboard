@@ -20,8 +20,40 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
+        <div class="wrapper">
+            <header>
+                <div class="container clearfix">
+                    <h1>Overview <span>July 8-12, 2013</span><a class="button">Change Date Range</a></h1>
+                </div>
+            </header>
+            <div class="container clearfix">
+                <div class="third widget doughnut">
+                    <h3>Breakdown of Hours</h3>
+                    <div class="canvas-container">
+                        <canvas id="hours"></canvas>
+                    </div>
+                </div>
+                <div class="third widget line">
+                    <div class="chart-legend">
+                        <h3>Shipments per Day</h3>
+                    </div>
+                    <div class="canvas-container">
+                        <canvas id="shipments"></canvas>
+                    </div>
+                </div>
+                <div class="third widget">
+                    <div class="chart-legend">
+                        <h3>Customer Service Assessment</h3>
+                    </div>
+                    <div class="canvas-container">
+                        <canvas id="departments"></canvas>
+                    </div>
+                </div>
+            </div>
+        <div class="push"></div>
+        </div>
+        <footer>
+        </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
