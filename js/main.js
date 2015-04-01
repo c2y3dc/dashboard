@@ -104,4 +104,4 @@ function redraw(animation){
     new Chart(ctx).Radar(data, options);
 }
 size(); // this kicks off the first drawing; note that the first call to size will animate the charts in.
-});
+})();
